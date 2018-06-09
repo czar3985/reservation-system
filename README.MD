@@ -1,4 +1,4 @@
-PROJECT TITLE: Movie Theater Reservation System
+# Movie Theater Reservation System
 
 A console application seat assignment or reservation system for use of theater staff.
 
@@ -9,18 +9,24 @@ It includes the following functions:
 - Resets the system/Deletes all reservations
 - Saves the reservations at the end of the program
 
-The project demonstrates the use of Python's built-in functions specifically: print, input, open, zip, list, str, int, dict and len.
+The project demonstrates the use of Python's built-in functions specifically: `print`, `input`, `open`, `zip`, `list`, `str`, `int`, `dict` and `len`.
 
-GETTING STARTED
+## Installation
 
-Prerequisites: 
-- Python 3.6.3 and python.exe should be added to the PATH environmental variable.
-This guide in running Python scripts for different systems is particularly helpful:
-https://www.pythoncentral.io/execute-python-script-file-shell/
+1. Install **python 3.6.3**.
+2. Clone the github repository [reservation-system](https://github.com/czar3985/reservation-system).
+	```
+	$ git clone https://github.com/czar3985/reservation-system
+	```
+3. The necessary files needed to the run the program are:
+	```
+	reservation_system.py
+	Seats.txt
+	Names.txt
+	```
+4. Run the python script _reservation_system.py_. The following resource gives more information on how to run python scripts: [How to Run a Python Script via a File or the Shell](https://www.pythoncentral.io/execute-python-script-file-shell/).
 
-- Project contents: reservation_system.py, Seats.txt and Names.txt
-
-DEPLOYMENT
+## Usage
 
 The processing always goes back to the main menu after every transaction.
 The main menu options are:
